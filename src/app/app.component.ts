@@ -5,5 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: 'app.component.html'
 })
 export class AppComponent {
-  title = 'Contador App';
+  title: string = 'Contador App';
+  numero: number = 10;
+
 }
