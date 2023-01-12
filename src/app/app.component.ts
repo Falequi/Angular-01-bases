@@ -8,10 +8,8 @@ export class AppComponent {
   title: string = 'Contador App';
   numero: number = 10;
 
-  sumar(){
-    this.numero = this.numero+1;
+  acumular( valor: number){
+    this.numero += valor;
   }
-  restar(){
-    this.numero = this.numero-1;
-  }
+  
 }
